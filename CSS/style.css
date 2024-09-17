@@ -1,0 +1,26 @@
+* {
+    background-color: burlywood;
+    box-sizing: border-box;
+}
+
+#checkerboard {
+    margin-top: 15vh;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+    gap: 0;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
